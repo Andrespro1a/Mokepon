@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+
+body{
+    font-family: 'Patua One', cursive;
+    font-size: 25px;
+    color: white;
+    background-image: url(./js/hH.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;  
+    background-size: cover;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+#seleccionar-mascota {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+     color:rgb(253, 241, 7);
+     height: 59px;
+     font-family: Jokerman;
+     font-size: 51px;
+     text-align: center;    
+}
+
+.Subtitulo {
+    
+    font-family: Lucida Calligraphy;
+    font-size: 30px;
+    color: blanchedalmond
+}
+
+.tarjetas, .tarjetas-ataques {
+    display: flex;
+    gap: 10px;   
+}
+
+.tarjeta-de-mokepon {
+    width: 359px;
+    height: 234px;
+    background: rgb(84, 75, 211);
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 10px;
+    text-align: center;
+    font-family:Broadway;
+    font-size: 30px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border: 3px solid #66ccff;   
+}
+
+input:checked + label {
+    background-color: blue;
+}
+
+.tarjeta-de-mokepon img {
+    width: 176px;  
+}
+
+
+input {
+    display: none;
+}
+
+#seleccionar-ataque {
+    flex-direction: column;
+    align-items: center;
+}
+
+.tarjeta-de-ataque { 
+    color:rgb(253, 241, 7);
+     width:   471px;
+     height: 72px;
+     background-color: rgb(85, 166, 104);
+     font-family: Jokerman;
+     font-size: 47px;
+     border: 0.5px solid #0019FF;   
+     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#boton-mascota{
+    display: inline-block;
+    margin: 1px 6px;
+    width: 239px;
+    height: 43px;
+    padding: 5px 7px;
+    text-decoration: none;
+    text-align: center;
+    font-family:Charlemagne Std;
+    font-size: 24px; 
+    border-radius: 20px;
+    background: rgb(18, 159, 174);
+    border: 2.5px solid #0c0d57;  
+    margin-top: 33px;
+}
+
+#boton-mascota:hover {
+    background-color: rgb(0, 255, 238);
+}
+
+#boton-fuego:hover {
+    background-color: rgba(229, 255, 0, 0.549);
+}
+
+#boton-agua:hover {
+    background-color: rgba(0, 38, 255, 0.638);
+}
+
+#boton-tierra:hover {
+    background-color: rgba(103, 61, 18, 0.759);
+}
+
+.boton-de-ataque {
+    background: rgb(84, 75, 211);
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 20px;  
+    border-color: transparent;
+    width: 154px;
+    color: white;
+    font-family:"Algerian";
+    font-size: 27px;
+}
+
+#mensajes {
+    width: 454px;
+    height: 127px;
+    background: #0096FF;
+    padding: 2px;
+    margin-top: 24px;
+    border-radius: 52px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+#boton-reiniciar {
+    border: #00ffe5;
+    color: #001c5a;
+    font-family: fantasy;
+    font-size: 24px;
+    width: 109px;
+    height: 32px;
+    background: #16ffff
+}
+
+.ataques {
+    display: grid;
+    grid-template-columns: 160px 160px;   
+}
+
+@media (max-width: 360px) {
+    .tarjetas, .tarjetas-ataques {
+        flex-direction: column;
+    }
+}
+
+#imagen-jugador, #imagen-enemigo {
+    width: 160px;
+    height: 173px;
+}
+
+
+
+    
+
+
+
+
+
+    
+
+
+
+
+
